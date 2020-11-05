@@ -1,0 +1,40 @@
+
+ body{
+     margin: 0;
+     padding: 0;
+     background: rgba(230, 211, 211, 0.8);
+ }
+ .border{
+     margin: 40px;
+     border: 3px solid rgb(86, 170, 209);
+     padding: 40px;
+ }
+ .percent-count{/* слова загрузки*/
+     width: 450px;
+     height: 50px;
+     margin:  auto;
+     font-size: 50px;
+     text-align: center;
+     color: rgb(212, 92, 192);
+     font-style: italic;
+     
+ }
+ .progress-bar{/* внешняя рамка полосы загрузки*/
+     width: 500px;
+     height: 20px;
+     background-color:#bbb ;
+     border-radius: 13px;
+     padding: 3px;
+     margin:  10px auto;
+     
+
+ }
+ .progress{/* полоса заргузки*/
+     width:25px;
+     height: 20px;
+     border-radius: 13px;
+     background-color: rgb(81, 63, 180);
+ }
+ #percentCount{
+     text-align: center;
+ }
